@@ -18,8 +18,6 @@ export class ProductDetailComponent {
 
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
-      // this.product = products[+params.get('productId')]
-      // this.product = this.productService.getProductById(params.get('productId'))
       const productObservable = this.productService.getProductById(params.get('productId'))
       productObservable.subscribe(
         (data) => {
