@@ -2,6 +2,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    // "paths": {
+    // "crypto": ["./node_modules/crypto-browserify"],
+    // "stream": ["./node_modules/stream-browserify"],
+    // "http": ["./node_modules/stream-http"],
+    // "fs": ["./node_modules/destroy","./node_modules/etag"],
+    // "async_hooks": ["./node_modules/express","./node_modules/on-finished"]},
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
